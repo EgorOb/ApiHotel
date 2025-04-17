@@ -1,0 +1,1167 @@
+[
+{
+    "model": "admin.logentry",
+    "pk": 1,
+    "fields": {
+        "action_time": "2025-04-17T13:18:54.514Z",
+        "user": 1,
+        "content_type": 7,
+        "object_id": "3",
+        "object_repr": "user1",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 2,
+    "fields": {
+        "action_time": "2025-04-17T13:21:41.113Z",
+        "user": 1,
+        "content_type": 6,
+        "object_id": "1",
+        "object_repr": "Бутик-отель Bazilevs",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 3,
+    "fields": {
+        "action_time": "2025-04-17T13:23:17.845Z",
+        "user": 1,
+        "content_type": 6,
+        "object_id": "2",
+        "object_repr": "Апарт-отель Welcome inn",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 4,
+    "fields": {
+        "action_time": "2025-04-17T13:24:13.891Z",
+        "user": 1,
+        "content_type": 6,
+        "object_id": "3",
+        "object_repr": "Апарт-отель Well",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 5,
+    "fields": {
+        "action_time": "2025-04-17T13:26:29.823Z",
+        "user": 1,
+        "content_type": 6,
+        "object_id": "4",
+        "object_repr": "Апарт-отель izzziUP 4* COMMUNITY L&C",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 6,
+    "fields": {
+        "action_time": "2025-04-17T13:27:08.004Z",
+        "user": 1,
+        "content_type": 6,
+        "object_id": "5",
+        "object_repr": "Гостевой Дом Садовая 48",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 7,
+    "fields": {
+        "action_time": "2025-04-17T13:29:22.986Z",
+        "user": 1,
+        "content_type": 9,
+        "object_id": "1",
+        "object_repr": "Бутик-отель Bazilevs - 1",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 8,
+    "fields": {
+        "action_time": "2025-04-17T13:29:45.858Z",
+        "user": 1,
+        "content_type": 9,
+        "object_id": "2",
+        "object_repr": "Бутик-отель Bazilevs - 2",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 9,
+    "fields": {
+        "action_time": "2025-04-17T13:30:05.011Z",
+        "user": 1,
+        "content_type": 9,
+        "object_id": "3",
+        "object_repr": "Бутик-отель Bazilevs - 3",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 10,
+    "fields": {
+        "action_time": "2025-04-17T13:30:18.458Z",
+        "user": 1,
+        "content_type": 9,
+        "object_id": "4",
+        "object_repr": "Апарт-отель Welcome inn - 1",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 11,
+    "fields": {
+        "action_time": "2025-04-17T13:30:32.269Z",
+        "user": 1,
+        "content_type": 9,
+        "object_id": "5",
+        "object_repr": "Апарт-отель Welcome inn - 2",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 12,
+    "fields": {
+        "action_time": "2025-04-17T13:30:42.943Z",
+        "user": 1,
+        "content_type": 9,
+        "object_id": "6",
+        "object_repr": "Апарт-отель Welcome inn - 3",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 13,
+    "fields": {
+        "action_time": "2025-04-17T13:30:55.306Z",
+        "user": 1,
+        "content_type": 9,
+        "object_id": "7",
+        "object_repr": "Апарт-отель Well - 1",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 14,
+    "fields": {
+        "action_time": "2025-04-17T13:31:08.770Z",
+        "user": 1,
+        "content_type": 9,
+        "object_id": "8",
+        "object_repr": "Апарт-отель Well - 2",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 15,
+    "fields": {
+        "action_time": "2025-04-17T13:31:23.114Z",
+        "user": 1,
+        "content_type": 9,
+        "object_id": "9",
+        "object_repr": "Апарт-отель Well - 3",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 16,
+    "fields": {
+        "action_time": "2025-04-17T13:31:34.019Z",
+        "user": 1,
+        "content_type": 9,
+        "object_id": "10",
+        "object_repr": "Апарт-отель izzziUP 4* COMMUNITY L&C - 1",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 17,
+    "fields": {
+        "action_time": "2025-04-17T13:31:46.626Z",
+        "user": 1,
+        "content_type": 9,
+        "object_id": "11",
+        "object_repr": "Апарт-отель izzziUP 4* COMMUNITY L&C - 2",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 18,
+    "fields": {
+        "action_time": "2025-04-17T13:31:55.867Z",
+        "user": 1,
+        "content_type": 9,
+        "object_id": "12",
+        "object_repr": "Апарт-отель izzziUP 4* COMMUNITY L&C - 3",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 19,
+    "fields": {
+        "action_time": "2025-04-17T13:32:08.594Z",
+        "user": 1,
+        "content_type": 9,
+        "object_id": "13",
+        "object_repr": "Гостевой Дом Садовая 48 - 1",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 20,
+    "fields": {
+        "action_time": "2025-04-17T13:32:18.674Z",
+        "user": 1,
+        "content_type": 9,
+        "object_id": "14",
+        "object_repr": "Гостевой Дом Садовая 48 - 2",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 21,
+    "fields": {
+        "action_time": "2025-04-17T13:32:30.722Z",
+        "user": 1,
+        "content_type": 9,
+        "object_id": "15",
+        "object_repr": "Гостевой Дом Садовая 48 - 3",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 22,
+    "fields": {
+        "action_time": "2025-04-17T13:33:31.971Z",
+        "user": 1,
+        "content_type": 10,
+        "object_id": "1",
+        "object_repr": "Booking by user - Room 4",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 23,
+    "fields": {
+        "action_time": "2025-04-17T13:34:06.051Z",
+        "user": 1,
+        "content_type": 10,
+        "object_id": "2",
+        "object_repr": "Booking by user1 - Room 15",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 24,
+    "fields": {
+        "action_time": "2025-04-17T13:35:33.772Z",
+        "user": 1,
+        "content_type": 8,
+        "object_id": "1",
+        "object_repr": "Review by user - Бутик-отель Bazilevs",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 25,
+    "fields": {
+        "action_time": "2025-04-17T13:36:05.170Z",
+        "user": 1,
+        "content_type": 8,
+        "object_id": "2",
+        "object_repr": "Review by user - Апарт-отель Welcome inn",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 26,
+    "fields": {
+        "action_time": "2025-04-17T13:37:00.338Z",
+        "user": 1,
+        "content_type": 8,
+        "object_id": "3",
+        "object_repr": "Review by user - Апарт-отель Well",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 27,
+    "fields": {
+        "action_time": "2025-04-17T13:37:35.582Z",
+        "user": 1,
+        "content_type": 8,
+        "object_id": "4",
+        "object_repr": "Review by user1 - Апарт-отель izzziUP 4* COMMUNITY L&C",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 28,
+    "fields": {
+        "action_time": "2025-04-17T13:38:36.296Z",
+        "user": 1,
+        "content_type": 8,
+        "object_id": "5",
+        "object_repr": "Review by user1 - Гостевой Дом Садовая 48",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 1,
+    "fields": {
+        "name": "Can add log entry",
+        "content_type": 1,
+        "codename": "add_logentry"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 2,
+    "fields": {
+        "name": "Can change log entry",
+        "content_type": 1,
+        "codename": "change_logentry"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 3,
+    "fields": {
+        "name": "Can delete log entry",
+        "content_type": 1,
+        "codename": "delete_logentry"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 4,
+    "fields": {
+        "name": "Can view log entry",
+        "content_type": 1,
+        "codename": "view_logentry"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 5,
+    "fields": {
+        "name": "Can add permission",
+        "content_type": 2,
+        "codename": "add_permission"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 6,
+    "fields": {
+        "name": "Can change permission",
+        "content_type": 2,
+        "codename": "change_permission"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 7,
+    "fields": {
+        "name": "Can delete permission",
+        "content_type": 2,
+        "codename": "delete_permission"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 8,
+    "fields": {
+        "name": "Can view permission",
+        "content_type": 2,
+        "codename": "view_permission"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 9,
+    "fields": {
+        "name": "Can add group",
+        "content_type": 3,
+        "codename": "add_group"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 10,
+    "fields": {
+        "name": "Can change group",
+        "content_type": 3,
+        "codename": "change_group"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 11,
+    "fields": {
+        "name": "Can delete group",
+        "content_type": 3,
+        "codename": "delete_group"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 12,
+    "fields": {
+        "name": "Can view group",
+        "content_type": 3,
+        "codename": "view_group"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 13,
+    "fields": {
+        "name": "Can add content type",
+        "content_type": 4,
+        "codename": "add_contenttype"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 14,
+    "fields": {
+        "name": "Can change content type",
+        "content_type": 4,
+        "codename": "change_contenttype"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 15,
+    "fields": {
+        "name": "Can delete content type",
+        "content_type": 4,
+        "codename": "delete_contenttype"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 16,
+    "fields": {
+        "name": "Can view content type",
+        "content_type": 4,
+        "codename": "view_contenttype"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 17,
+    "fields": {
+        "name": "Can add session",
+        "content_type": 5,
+        "codename": "add_session"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 18,
+    "fields": {
+        "name": "Can change session",
+        "content_type": 5,
+        "codename": "change_session"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 19,
+    "fields": {
+        "name": "Can delete session",
+        "content_type": 5,
+        "codename": "delete_session"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 20,
+    "fields": {
+        "name": "Can view session",
+        "content_type": 5,
+        "codename": "view_session"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 21,
+    "fields": {
+        "name": "Can add hotel",
+        "content_type": 6,
+        "codename": "add_hotel"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 22,
+    "fields": {
+        "name": "Can change hotel",
+        "content_type": 6,
+        "codename": "change_hotel"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 23,
+    "fields": {
+        "name": "Can delete hotel",
+        "content_type": 6,
+        "codename": "delete_hotel"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 24,
+    "fields": {
+        "name": "Can view hotel",
+        "content_type": 6,
+        "codename": "view_hotel"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 25,
+    "fields": {
+        "name": "Can add user",
+        "content_type": 7,
+        "codename": "add_user"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 26,
+    "fields": {
+        "name": "Can change user",
+        "content_type": 7,
+        "codename": "change_user"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 27,
+    "fields": {
+        "name": "Can delete user",
+        "content_type": 7,
+        "codename": "delete_user"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 28,
+    "fields": {
+        "name": "Can view user",
+        "content_type": 7,
+        "codename": "view_user"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 29,
+    "fields": {
+        "name": "Can add review",
+        "content_type": 8,
+        "codename": "add_review"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 30,
+    "fields": {
+        "name": "Can change review",
+        "content_type": 8,
+        "codename": "change_review"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 31,
+    "fields": {
+        "name": "Can delete review",
+        "content_type": 8,
+        "codename": "delete_review"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 32,
+    "fields": {
+        "name": "Can view review",
+        "content_type": 8,
+        "codename": "view_review"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 33,
+    "fields": {
+        "name": "Can add room",
+        "content_type": 9,
+        "codename": "add_room"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 34,
+    "fields": {
+        "name": "Can change room",
+        "content_type": 9,
+        "codename": "change_room"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 35,
+    "fields": {
+        "name": "Can delete room",
+        "content_type": 9,
+        "codename": "delete_room"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 36,
+    "fields": {
+        "name": "Can view room",
+        "content_type": 9,
+        "codename": "view_room"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 37,
+    "fields": {
+        "name": "Can add booking",
+        "content_type": 10,
+        "codename": "add_booking"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 38,
+    "fields": {
+        "name": "Can change booking",
+        "content_type": 10,
+        "codename": "change_booking"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 39,
+    "fields": {
+        "name": "Can delete booking",
+        "content_type": 10,
+        "codename": "delete_booking"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 40,
+    "fields": {
+        "name": "Can view booking",
+        "content_type": 10,
+        "codename": "view_booking"
+    }
+},
+{
+    "model": "contenttypes.contenttype",
+    "pk": 1,
+    "fields": {
+        "app_label": "admin",
+        "model": "logentry"
+    }
+},
+{
+    "model": "contenttypes.contenttype",
+    "pk": 2,
+    "fields": {
+        "app_label": "auth",
+        "model": "permission"
+    }
+},
+{
+    "model": "contenttypes.contenttype",
+    "pk": 3,
+    "fields": {
+        "app_label": "auth",
+        "model": "group"
+    }
+},
+{
+    "model": "contenttypes.contenttype",
+    "pk": 4,
+    "fields": {
+        "app_label": "contenttypes",
+        "model": "contenttype"
+    }
+},
+{
+    "model": "contenttypes.contenttype",
+    "pk": 5,
+    "fields": {
+        "app_label": "sessions",
+        "model": "session"
+    }
+},
+{
+    "model": "contenttypes.contenttype",
+    "pk": 6,
+    "fields": {
+        "app_label": "api_hotel",
+        "model": "hotel"
+    }
+},
+{
+    "model": "contenttypes.contenttype",
+    "pk": 7,
+    "fields": {
+        "app_label": "api_hotel",
+        "model": "user"
+    }
+},
+{
+    "model": "contenttypes.contenttype",
+    "pk": 8,
+    "fields": {
+        "app_label": "api_hotel",
+        "model": "review"
+    }
+},
+{
+    "model": "contenttypes.contenttype",
+    "pk": 9,
+    "fields": {
+        "app_label": "api_hotel",
+        "model": "room"
+    }
+},
+{
+    "model": "contenttypes.contenttype",
+    "pk": 10,
+    "fields": {
+        "app_label": "api_hotel",
+        "model": "booking"
+    }
+},
+{
+    "model": "sessions.session",
+    "pk": "9kpre76tj32zsj8qm25g68d4hs1hvvz9",
+    "fields": {
+        "session_data": ".eJxVjMsOwiAQRf-FtSFDeQgu3fsNZOgMUjWQlHZl_HfbpAvd3nPOfYuI61Li2nmOE4mLUOL0uyUcn1x3QA-s9ybHVpd5SnJX5EG7vDXi1_Vw_w4K9rLVXgXvtaOzYucMa2AKGsESGo_MkAcCAquH7ExQJluNHpIB7Yk2I4vPF8ozN3M:1u5Oau:h7nYH5vJQr7QvMmB-pxFx9XkjD2i7XGKWr0pO0a0TP4",
+        "expire_date": "2025-05-01T12:43:52.814Z"
+    }
+},
+{
+    "model": "api_hotel.user",
+    "pk": 1,
+    "fields": {
+        "password": "pbkdf2_sha256$1000000$leDYYyD1HTiydzuuvElFIT$iDKW2xRYC01hMFX3JlEG8R81C10DG13L5Cw5sETa1ik=",
+        "last_login": "2025-04-17T12:43:52.811Z",
+        "is_superuser": true,
+        "username": "admin",
+        "first_name": "",
+        "last_name": "",
+        "email": "",
+        "is_staff": true,
+        "is_active": true,
+        "date_joined": "2025-04-17T11:49:28.029Z",
+        "groups": [],
+        "user_permissions": []
+    }
+},
+{
+    "model": "api_hotel.user",
+    "pk": 2,
+    "fields": {
+        "password": "pbkdf2_sha256$1000000$LNnWpW9UbqXHxaGU20kZWu$d6iQOE2XUC4DnndzwtIP05kauty1uWj7Nm6rrHYGxJs=",
+        "last_login": null,
+        "is_superuser": false,
+        "username": "user",
+        "first_name": "",
+        "last_name": "",
+        "email": "user@user.com",
+        "is_staff": false,
+        "is_active": true,
+        "date_joined": "2025-04-17T13:15:08.494Z",
+        "groups": [],
+        "user_permissions": []
+    }
+},
+{
+    "model": "api_hotel.user",
+    "pk": 3,
+    "fields": {
+        "password": "!QAZXSW@",
+        "last_login": null,
+        "is_superuser": false,
+        "username": "user1",
+        "first_name": "",
+        "last_name": "",
+        "email": "",
+        "is_staff": false,
+        "is_active": true,
+        "date_joined": "2025-04-17T13:18:24Z",
+        "groups": [],
+        "user_permissions": []
+    }
+},
+{
+    "model": "api_hotel.hotel",
+    "pk": 1,
+    "fields": {
+        "name": "Бутик-отель Bazilevs",
+        "city": "Санкт-Петербург",
+        "address": "улица Рубинштейна, д.7/2",
+        "description": "1.9 км от центра, 350 м от метро Достоевская",
+        "rating": 9.5
+    }
+},
+{
+    "model": "api_hotel.hotel",
+    "pk": 2,
+    "fields": {
+        "name": "Апарт-отель Welcome inn",
+        "city": "Санкт-Петербург",
+        "address": "Невский проспект, 32-34Н",
+        "description": "854 м от центра, 224 м от метро Невский проспект",
+        "rating": 8.5
+    }
+},
+{
+    "model": "api_hotel.hotel",
+    "pk": 3,
+    "fields": {
+        "name": "Апарт-отель Well",
+        "city": "Санкт-Петербург",
+        "address": "Измайловский бульвар, д.1/2",
+        "description": "3.7 км от центра, 281 м от метро Балтийская",
+        "rating": 9.4
+    }
+},
+{
+    "model": "api_hotel.hotel",
+    "pk": 4,
+    "fields": {
+        "name": "Апарт-отель izzziUP 4* COMMUNITY L&C",
+        "city": "Санкт-Петербург",
+        "address": "Гороховая улица, 47в",
+        "description": "1.4 км от центра, 92 м от метро Сенная площадь",
+        "rating": 9.7
+    }
+},
+{
+    "model": "api_hotel.hotel",
+    "pk": 5,
+    "fields": {
+        "name": "Гостевой Дом Садовая 48",
+        "city": "Санкт-Петербург",
+        "address": "Садовая дом 48",
+        "description": "1.6 км от центра, 314 м от метро Садовая",
+        "rating": 8.5
+    }
+},
+{
+    "model": "api_hotel.room",
+    "pk": 1,
+    "fields": {
+        "hotel": 1,
+        "room_number": "1",
+        "room_type": "single",
+        "price_per_night": "4000.00",
+        "capacity": 0
+    }
+},
+{
+    "model": "api_hotel.room",
+    "pk": 2,
+    "fields": {
+        "hotel": 1,
+        "room_number": "2",
+        "room_type": "double",
+        "price_per_night": "6000.00",
+        "capacity": 2
+    }
+},
+{
+    "model": "api_hotel.room",
+    "pk": 3,
+    "fields": {
+        "hotel": 1,
+        "room_number": "3",
+        "room_type": "suite",
+        "price_per_night": "9000.00",
+        "capacity": 3
+    }
+},
+{
+    "model": "api_hotel.room",
+    "pk": 4,
+    "fields": {
+        "hotel": 2,
+        "room_number": "1",
+        "room_type": "single",
+        "price_per_night": "3000.00",
+        "capacity": 1
+    }
+},
+{
+    "model": "api_hotel.room",
+    "pk": 5,
+    "fields": {
+        "hotel": 2,
+        "room_number": "2",
+        "room_type": "double",
+        "price_per_night": "7000.00",
+        "capacity": 2
+    }
+},
+{
+    "model": "api_hotel.room",
+    "pk": 6,
+    "fields": {
+        "hotel": 2,
+        "room_number": "3",
+        "room_type": "suite",
+        "price_per_night": "10000.00",
+        "capacity": 3
+    }
+},
+{
+    "model": "api_hotel.room",
+    "pk": 7,
+    "fields": {
+        "hotel": 3,
+        "room_number": "1",
+        "room_type": "single",
+        "price_per_night": "2500.00",
+        "capacity": 1
+    }
+},
+{
+    "model": "api_hotel.room",
+    "pk": 8,
+    "fields": {
+        "hotel": 3,
+        "room_number": "2",
+        "room_type": "double",
+        "price_per_night": "5600.00",
+        "capacity": 2
+    }
+},
+{
+    "model": "api_hotel.room",
+    "pk": 9,
+    "fields": {
+        "hotel": 3,
+        "room_number": "3",
+        "room_type": "suite",
+        "price_per_night": "6900.00",
+        "capacity": 3
+    }
+},
+{
+    "model": "api_hotel.room",
+    "pk": 10,
+    "fields": {
+        "hotel": 4,
+        "room_number": "1",
+        "room_type": "single",
+        "price_per_night": "4500.00",
+        "capacity": 2
+    }
+},
+{
+    "model": "api_hotel.room",
+    "pk": 11,
+    "fields": {
+        "hotel": 4,
+        "room_number": "2",
+        "room_type": "double",
+        "price_per_night": "6700.00",
+        "capacity": 3
+    }
+},
+{
+    "model": "api_hotel.room",
+    "pk": 12,
+    "fields": {
+        "hotel": 4,
+        "room_number": "3",
+        "room_type": "suite",
+        "price_per_night": "9000.00",
+        "capacity": 3
+    }
+},
+{
+    "model": "api_hotel.room",
+    "pk": 13,
+    "fields": {
+        "hotel": 5,
+        "room_number": "1",
+        "room_type": "single",
+        "price_per_night": "2400.00",
+        "capacity": 1
+    }
+},
+{
+    "model": "api_hotel.room",
+    "pk": 14,
+    "fields": {
+        "hotel": 5,
+        "room_number": "2",
+        "room_type": "suite",
+        "price_per_night": "6000.00",
+        "capacity": 2
+    }
+},
+{
+    "model": "api_hotel.room",
+    "pk": 15,
+    "fields": {
+        "hotel": 5,
+        "room_number": "3",
+        "room_type": "suite",
+        "price_per_night": "10000.00",
+        "capacity": 3
+    }
+},
+{
+    "model": "api_hotel.booking",
+    "pk": 1,
+    "fields": {
+        "user": 2,
+        "room": 4,
+        "check_in_date": "2025-04-17",
+        "check_out_date": "2025-04-18",
+        "created_at": "2025-04-17T13:33:31.970Z",
+        "status": "active"
+    }
+},
+{
+    "model": "api_hotel.booking",
+    "pk": 2,
+    "fields": {
+        "user": 3,
+        "room": 15,
+        "check_in_date": "2025-04-30",
+        "check_out_date": "2025-05-03",
+        "created_at": "2025-04-17T13:34:06.050Z",
+        "status": "active"
+    }
+},
+{
+    "model": "api_hotel.review",
+    "pk": 1,
+    "fields": {
+        "user": 2,
+        "hotel": 1,
+        "rating": 10,
+        "comment": "Все очень понравилось! Выше всяких похвал! Чистый номер, качественное постельное белье, удобная большая кровать, капсульный кофе и хороший бар, бессульфатные гигиенические принадлежности в ванной. Прекрасные авторские завтраки, вкусные, красивые и разнообразные! Приятные мелочи в виде приветственного шампанского при заселении и сладкого комплимента в номер от отеля! Внимательный и доброжелательный персонал! С удовольствием будем рекомендовать отель Bazilevs друзьям и знакомым!",
+        "created_at": "2025-04-17T13:35:33.771Z"
+    }
+},
+{
+    "model": "api_hotel.review",
+    "pk": 2,
+    "fields": {
+        "user": 2,
+        "hotel": 2,
+        "rating": 10,
+        "comment": "очень уютный номер, приятно там находиться, чистая и современная ванная комната, бесперебойный интернет, чистая постель и посуда, хоть две кровати совмещены в одну, дополнительно сверху лежит удобный матрас, что способствует комфортному сну, это очень большой плюс, немногие отели так делают при совмещении двух кроватей в одну, супер. персонал всегда шел навстречу, вежливые и компетентные. в общем от пребывания в отеле остались только хорошие впечатления",
+        "created_at": "2025-04-17T13:36:05.170Z"
+    }
+},
+{
+    "model": "api_hotel.review",
+    "pk": 3,
+    "fields": {
+        "user": 2,
+        "hotel": 3,
+        "rating": 10,
+        "comment": "Понравилось абсолютно всё! Номер прекрасный, есть абсолютно все необходимое, все новое, чистое!\r\nПорадовали мелочи в виде посуды, сушилки)Завтрак прекрасный, очень круто, что это не привычные всем сосиски и яйца))\r\nРасположение шикарное, рядом все!\r\nИ самое главное можно с питомцем, для нас было очень важно!\r\nЕсли приедем еще раз, даже не буду думать о выборе отеля!\r\nНесомненно остановимся в этом же отеле!",
+        "created_at": "2025-04-17T13:37:00.337Z"
+    }
+},
+{
+    "model": "api_hotel.review",
+    "pk": 4,
+    "fields": {
+        "user": 3,
+        "hotel": 4,
+        "rating": 10,
+        "comment": "Такой красивый отель, и номера все очень стильные. Вообще восторг конечно!\r\n\r\nВ номере очень тихо, никого не слышала.\r\n\r\nМне даже экскурсию устроили по отелю. Сервис отличный.\r\n\r\n\r\nЧистота в номере идеальная.\r\n\r\nЛокация очень классная, вокруг много ресторанов, торговый центр, галлереи всякие. Вообщем супер! Очень рекомендую",
+        "created_at": "2025-04-17T13:37:35.581Z"
+    }
+},
+{
+    "model": "api_hotel.review",
+    "pk": 5,
+    "fields": {
+        "user": 3,
+        "hotel": 5,
+        "rating": 9,
+        "comment": "Отличный гостевой дом. Чисто в комнате и на общей территории. Три санузла совмещенных с душем. На кухне холодильник, плита, две стиральных машины, чайник, кофемашина вся посуда есть. Кофе чай сахар для гостей в общем доступе.\r\n\r\nРасположение отличное в шаговой доступности много достопримечательностей. Ранее не останавливалась в гостиных домах, первый раз и так удачно! 🙂Спасибо вам за гостеприимство и поздний выезд. Желаю вам процветания.",
+        "created_at": "2025-04-17T13:38:36.294Z"
+    }
+}
+]
