@@ -1,3 +1,12 @@
+## Для запуска из файла (или тестирования) раскомментировать
+# import os
+# import django
+# from django.conf import settings
+#
+# os.environ['DJANGO_SETTINGS_MODULE'] = 'project.settings'
+# settings.ALLOWED_HOSTS = ['localhost', '127.0.0.1', 'testserver']
+# django.setup()
+
 from django.test import TestCase
 from django.urls import reverse
 from rest_framework.test import APIClient
@@ -34,7 +43,7 @@ class BookingApiTests(TestCase):
         self.client.credentials(HTTP_AUTHORIZATION='Bearer ' + token)
 
     def test_register_user(self):
-        response = self.client.post('/api/register/', {
+        response = self.client.post(reverse('register'), {
             'username': 'newuser',
             'email': 'new@example.com',
             'password': 'newpass123'

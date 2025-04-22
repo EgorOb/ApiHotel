@@ -8,10 +8,10 @@ from drf_spectacular.views import SpectacularAPIView, SpectacularSwaggerView
 from .views import HotelViewSet, RoomViewSet, BookingViewSet, ReviewViewSet, RegisterView
 
 router = DefaultRouter()
-router.register(r'hotels', HotelViewSet)
-router.register(r'rooms', RoomViewSet)
+router.register(r'hotels', HotelViewSet, basename='hotel')
+router.register(r'rooms', RoomViewSet, basename='room')
 router.register(r'bookings', BookingViewSet, basename='booking')
-router.register(r'reviews', ReviewViewSet)
+router.register(r'reviews', ReviewViewSet, basename='review')
 
 urlpatterns = [
     path('', include(router.urls)),

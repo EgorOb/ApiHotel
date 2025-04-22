@@ -9,8 +9,11 @@ from rest_framework_simplejwt.tokens import RefreshToken
 class HotelViewSet(viewsets.ModelViewSet):
     queryset = Hotel.objects.all()
     serializer_class = HotelSerializer
-    filter_backends = [filters.SearchFilter]
+    filter_backends = [filters.SearchFilter, filters.OrderingFilter]
     search_fields = ['name', 'city']
+    ordering = ['id']  # Чтобы не было предупреждения пагинации при формировании всех объектов,
+    # так как для пагинации может быть важен порядок, чтобы не было дублирования. Используется OrderingFilter и ordering
+    # иначе придется писать queryset = Hotel.objects.all().order_by('id')
 
     def get_permissions(self):
         if self.action in ['create', 'update', 'partial_update', 'destroy']:
@@ -21,9 +24,10 @@ class HotelViewSet(viewsets.ModelViewSet):
 class RoomViewSet(viewsets.ModelViewSet):
     queryset = Room.objects.all()
     serializer_class = RoomSerializer
-    filter_backends = [filters.SearchFilter, DjangoFilterBackend]
+    filter_backends = [filters.SearchFilter, DjangoFilterBackend, filters.OrderingFilter]
     search_fields = ['room_type']
     filterset_fields = ['hotel', 'room_type']
+    ordering = ['id']
 
     def get_permissions(self):
         if self.action in ['create', 'update', 'partial_update', 'destroy']:
@@ -32,15 +36,21 @@ class RoomViewSet(viewsets.ModelViewSet):
 
 
 class BookingViewSet(viewsets.ModelViewSet):
+    queryset = Booking.objects.all()
     serializer_class = BookingSerializer
     filter_backends = [DjangoFilterBackend]
     filterset_fields = ['status']
 
     def get_queryset(self):
+        """
+        Так сможем разграничить направленность пользователя, если он часть команды сервиса is_staff==True, то он
+        видит всё, если это обычный пользователь, то видит только свои брони
+        :return:
+        """
         user = self.request.user
         if user.is_staff:
-            return Booking.objects.all()
-        return Booking.objects.filter(user=user)
+            return self.queryset
+        return self.queryset.filter(user=user)
 
     def get_permissions(self):
         if self.action in ['list', 'create', 'retrieve', 'destroy']:
@@ -70,7 +80,6 @@ class RegisterView(generics.CreateAPIView):
     permission_classes = [permissions.AllowAny]
 
     def create(self, request, *args, **kwargs):
-        response = super().create(request, *args, **kwargs)
         user = self.serializer_class(data=request.data)
         user.is_valid(raise_exception=True)
         created_user = user.save()
