@@ -147,3 +147,8 @@ SIMPLE_JWT = {
     "ACCESS_TOKEN_LIFETIME": timedelta(minutes=30),  # Время жизни токена доступа, установлено 30 минут, по умолчанию 5 минут
     "REFRESH_TOKEN_LIFETIME": timedelta(days=7),  # Время жизни токена обновления, установлено 7 дней, по умолчанию 1 день
 }
+
+# Чтобы была возможно обрабатывать формы при https протоколе
+CSRF_TRUSTED_ORIGINS = [
+    'https://localhost:8000',
+]
